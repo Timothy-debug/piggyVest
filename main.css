@@ -1,0 +1,227 @@
+body{
+  width: auto;
+  height:auto;
+  background-color: #062863;
+
+}
+
+/*.register{
+  background-color: #ffffff;
+  border-radius: 25px 15px 25px 15px;
+  width: 25%;
+  height: 50%;
+  display: block;
+  position: absolute;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,
+              apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji,segoe ui symbol,noto color emoji;
+  line-height: 1.5;
+  text-transform: capitalize;
+  padding:0px;
+font-size:12pt;
+border: 3px solid silver;
+letter-spacing: 1px;
+word-spacing: normal;
+top: 20%;
+left: 41%;
+}*/
+
+img{
+  top: 8%;
+  left:46%;
+  position: absolute;
+}
+
+.circle{
+  background-color: inherit;
+  border-radius: 45px 45px 45px 45px;
+  border:35px solid #e34899;
+  height: 120px;
+  width: 100px;
+  visibility: visible;
+  position: fixed;
+  top:9%;
+  right: 1%;
+
+}
+
+.style{
+  background-color: inherit;
+  border-radius: 15px 65px 15px 65px;
+  border:25px solid #2194f1;
+  height: 100px;
+  width: 100px;
+  visibility: visible;
+  position: fixed;
+  bottom:9%;
+  left: 1%;
+
+}
+
+.fish{
+  background-color: inherit;
+  border-radius: 95px 5px 95px 5px;
+  border:44px solid #10aa58;
+  height: 150px;
+  width: 100px;
+  visibility: visible;
+  position: fixed;
+  top:0%;
+  left: 10%;
+
+
+}
+
+.purp{
+  background-color: inherit;
+  border-radius: 90px 90px 90px 90px;
+  border:44px solid #7900db;
+  height: 100px;
+  width: 100px;
+  visibility: visible;
+  position: fixed;
+  bottom:0%;
+  right: 10%;
+
+}
+.checktwo{
+  background-color: darkred;
+  height: 17%;
+  width: 6%;
+  position: fixed;
+  left: 20%;
+  bottom: 15%;
+  transform: perspective(200px) rotateX(20deg) rotateY(10deg) rotateZ(30deg);
+  font-family: serif,arial, sans-serif;
+  font-stretch: condensed;
+  text-transform: capitalize;
+  transition :all .8s ease-in-out;
+ -moz-transition :all .8s ease-in-out;
+ -webkit-transition:all .8s ease-in-out;
+ -o-transition :all .8s ease-in-out;
+ -ms-transition :all .8s ease-in-out;
+}
+
+.checktwo:hover{
+  background :yellow;
+ -moz-transform :rotate(180deg);
+ -webkit-transform :rotate(180deg);
+ -o-transform :rotate(180deg);
+ -ms-transform :rotate(180deg);
+ transform :rotate(180deg);
+
+}
+
+.line{
+  position: absolute;
+  top:13%;
+  left:21%;
+  width: 64%;
+}
+/* style inputs, select elements and textareas*/
+input[type=text],[type=password], select, textarea{
+  width: 95%;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  font-size: 12pt;
+}
+
+/*changing the font style of placeholder*/
+input[placeholder]{
+  font-family: helvetica,Arial,sans-serif;
+  font-size: 12pt;
+  color: #7900db;
+}
+
+/*style the label to display next to the inputs*/
+label{
+  padding:12px 12px 12px 0;
+  display: inline-block;
+}
+
+/*style the submit button*/
+input[type=submit]{
+  background-color: #4CAF50;
+  color:white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:right;
+  font-family: helvetica,Arial,sans-serif;
+}
+
+/*style the container*/
+.contaniner{
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  padding:2px;
+  width: 25%;
+  position: absolute;
+  left:42%;
+  top:18%;
+  height: 168%;
+  font-family: helvetica,Arial,sans-serif;
+}
+
+/*Floating column for labels: 25% width*/
+.col-25{
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+
+}
+
+/*Floating columns for inputs: 75% width*/
+.col-75{
+  float:right;
+  width: 95%;
+  margin-top: 6px;
+  font-family: helvetica,Arial,sans-serif;
+}
+
+/*clear floats after the columns*/
+.row:after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/*Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other*/
+@media screen and (max-width:600px){
+  width:100%;
+  margin-top: 0;
+}
+
+/*adding color to the select*/
+#country{
+  background-color: #10aa58;
+  color:#ffffff;
+  font-family: helvetica,Arial,sans-serif;
+}
+
+input{
+  background-color: #e7eaed;
+}
+/*input:hover{
+  background:#ffffff;
+  cursor:pointer;
+}*/
+.header{
+  text-transform: capitalize;
+  font-style: normal;
+  display: flex;
+font-size: 17pt;
+padding: 3px;
+text-align: center;
+}
+.small{
+  text-transform: capitalize;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 9pt;
+  text-align: center;
+  padding: 2px;
+}
